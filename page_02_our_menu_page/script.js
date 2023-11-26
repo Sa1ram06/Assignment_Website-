@@ -3,7 +3,7 @@ const foodItems = document.querySelectorAll('.food-item');
 let activeBtn = "chef-recommendation"; // Correct spelling
 
 showFoodMenu(activeBtn);
-
+  
 menuBtns.forEach((btn) => {
   btn.addEventListener('click', () => {
     resetActiveBtn();
