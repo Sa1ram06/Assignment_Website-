@@ -1,116 +1,116 @@
 /* Reset styles */
-*{
-    margin: 0;
-    padding: 0;
-}
-/* Links */
-a {
-    cursor: pointer;
-}
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    /* Links */
+    a {
+        cursor: pointer;
+    }
 
-/* Fonts */
-body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #FAF0DC ;
-}
+    /* Fonts */
+    body {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #FAF0DC ;
+    }
 
-/* Header */
-.header-main{
-    width: 100%;
-    height: 100px;
-    background-color: #0B4141;
-    display: flex;
-    justify-content: space-between;
-    position: fixed;
-    z-index: 2;
-}
+    /* Header */
+    .header-main{
+        width: 100%;
+        height: 100px;
+        background-color: #0B4141;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        z-index: 2;
+    }
 
-/* Header Logo */
-.header-main-logo{
-    width: fit-content;
-    height: 100%;
-   
-    display: flex;
-    padding-left: 20px;
-}
-.header-main-logo img {
-    height: 100px;
-}
-
-/* Header Navigation */
-.header-main-nav {
-    display: flex;
-    align-items: center;
-    width: fit-content;
-    height: 100%;
-}
-
-.header-main-title {
-    font-size: 40px;
-    font-weight: bold;
-    font-family: Ubuntu;
-    margin-left: 10px;
-    color: #FAF0DC;
-}
-
-.header-main-nav ul {
-    list-style: none;
-    margin-left: 30px;
-    display: flex; /* Add flex display to make inline styling work */
-}
-
-.header-main-nav ul li {
-    margin-right: 20px;
-    display: inline;
-}
-
-/* Navigation links styling */
-.header-main-nav ul li a {
-    padding: 0 10px;
-    font-family: 'Arial', sans-serif; /* Change the font-family to a more common one */
-    line-height: 100px;
-    font-size: 20px; /* Reduce the font size for better readability */
-    font-weight: normal; /* Use normal font weight */
-    color: #FAF0DC;
-    text-decoration: none; /* Remove the default underlining */
-    transition: text-decoration 0.3s
+    /* Header Logo */
+    .header-main-logo{
+        width: fit-content;
+        height: 100%;
     
-}
+        display: flex;
+        padding-left: 20px;
+    }
+    .header-main-logo img {
+        height: 100px;
+    }
 
-/* Hover effect on navigation links */
-.header-main-nav ul li a:hover {
-    text-decoration: underline;
-    color: #FF6864;
-}
+    /* Header Navigation */
+    .header-main-nav {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: 100%;
+    }
 
-/* Header Button */
-.header-main-button {
-    width: 200px;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end; /* Align the button to the right */
-    align-items: center; /* Vertically center the button */
-    padding: 0 50px;
-}
+    .header-main-title {
+        font-size: 40px;
+        font-weight: bold;
+        font-family: Ubuntu;
+        margin-left: 10px;
+        color: #FAF0DC;
+    }
 
-/* Button styling */
-.header-main-button a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white; /* Set text color for the button */
-    padding: 10px 40px; /* Adjust padding for the button */
-    border: 2px solid white; /* Add a border for the button */
-    border-radius: 200px; /* Round the button corners */
-    background-color: #FF6864 ;
-    transition: background-color 0.3s, color 0.3s; /* Add hover effect */
-}
+    .header-main-nav ul {
+        list-style: none;
+        margin-left: 30px;
+        display: flex; /* Add flex display to make inline styling work */
+    }
+
+    .header-main-nav ul li {
+        margin-right: 20px;
+        display: inline;
+    }
+
+    /* Navigation links styling */
+    .header-main-nav ul li a {
+        padding: 0 10px;
+        font-family: 'Arial', sans-serif; /* Change the font-family to a more common one */
+        line-height: 100px;
+        font-size: 20px; /* Reduce the font size for better readability */
+        font-weight: normal; /* Use normal font weight */
+        color: #FAF0DC;
+        text-decoration: none; /* Remove the default underlining */
+        transition: text-decoration 0.3s
+        
+    }
+
+    /* Hover effect on navigation links */
+    .header-main-nav ul li a:hover {
+        text-decoration: underline;
+        color: #FF6864;
+    }
+
+    /* Header Button */
+    .header-main-button {
+        width: 200px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end; /* Align the button to the right */
+        align-items: center; /* Vertically center the button */
+        padding: 0 50px;
+    }
+
+    /* Button styling */
+    .header-main-button a {
+        text-decoration: none;
+        font-size: 20px;
+        color: white; /* Set text color for the button */
+        padding: 10px 40px; /* Adjust padding for the button */
+        border: 2px solid white; /* Add a border for the button */
+        border-radius: 200px; /* Round the button corners */
+        background-color: #FF6864 ;
+        transition: background-color 0.3s, color 0.3s; /* Add hover effect */
+    }
 
 
- /* Hover effect on the button */
-.header-main-button a:hover {
-    background-color: orange; /* Change background color on hover */
-    color: black; /* Change text color on hover */
-}
+    /* Hover effect on the button */
+    .header-main-button a:hover {
+        background-color: orange; /* Change background color on hover */
+        color: black; /* Change text color on hover */
+    }
 
 
 

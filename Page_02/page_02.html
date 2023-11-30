@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Menu Page</title>
+    <link rel="stylesheet" href = "../css/common_style.css">
+    <link rel="stylesheet" href = "../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;300&family=Playpen+Sans:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/543bcc20b3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- NavBAr-->
+    <header class = "header-main"> 
+        <div class = "header-main-logo"> 
+            <img src = "Images/logo_header.png" alt = "image logo">
+            <!-- Navigation links -->
+            <nav class = "header-main-nav">
+                <h1 class="header-main-title">KicknCuisine</h1>
+                <ul>
+                    <li> <a href = "">Home</a></li>
+                    <li> <a href = "C:\NP_IT\Sem_1.2\Front-End Development\FED_Assignment\Assignment_Website-\page_02_our_menu_page\Menu_Page.html">Our Menu</a></li>
+                    <li> <a href = "index.html">Catering</a></li>
+                    <li> <a href = "index.html">About Us </a></li>
+                </ul>
+            </nav>  
+        </div>
+        <!-- Order Now button -->
+        <div class = "header-main-button">
+             <a href="order.html">Order Now</a>
+        </div>
+    </header>
+<!-- Background-->
+    <section class = "Page_02_background">
+        <!-- Background Video -->
+        <video autoplay loop muted playsinline class = "background-clip"> 
+            <source src = "Images/background-clip.mp4" type="video/mp4">
+        </video>
+        <!-- Title and Description -->
+        <div class = "Page_02_Title">
+            <h1>Scoring Flavor Goals <br>
+                Match Day Feast!</h1>
+            <!-- Subtitle -->
+            <p> Experience the thrilling fusion of flavors and football, <br>
+                making every event a memorable celebration of taste and tradition.</p>
+        </div>
+    </section>
+<!--Our Top picks-->
+    <section class = "Our_Top_Picks">
+        <!-- Section Title -->
+        <h1> Our Top Picks </h1>
+         <!-- First Top Pick -->
+        <div class = "Our_Top_flex">
+            <!-- Description for the First Top Pick -->
+            <div class = "Our_Top_text">
+                <h2> Classic Ribeye </h2>
+                <p> A timeless favorite, our classic ribeye steak is packed with flavor, exceptionally tender, and irresistibly juicy. Our classic ribeye is more than a dish; it's a celebration of bold flavors in a perfectly cooked steak, leaving you with a memorable taste that lingers.</p>
+            </div>
+             <!-- Image for the First Top Pick -->
+            <div class = "Our_Top_img_container">
+                <img src = "Images/Our_Top_Picks_01.jpg" alt = "Steak" class = "Our_Top_pic">
+            </div>
+        </div>
+        <!-- Second Top Pick -->
+        <div class = "Our_Top_flex">
+              <!-- Image for the Second Top Pick -->
+            <div class = "Our_Top_img_container">
+                <img src = "Images/Our_Top_Picks_02.jpg" alt = "Steak" class = "Our_Top_pic">
+            </div>
+            <!-- Description for the Second Top Pick -->
+            <div class = "Our_Top_text">
+                <h2>Beef Burger</h2>
+                <p> Grilled to perfection, each bite unveils a symphony of flavors, from the charred outer layer to the juicy, well-seasoned core. Topped with fresh, crisp vegetables and nestled in a soft bun, this burger is a delightful journey for your taste buds</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu -->
+    <section class = "menu">
+        <div class = "menu-head">
+                <h2> Our Amazing Menu </h2>
+        </div>
+        <div class="menu-container">
+            <div class="menu-btns">
+                <a href="#" class="menu-btn active-btn" id="chef-recommendation">Chef Recommendations</a>
+                <a href="#" class="menu-btn" id="breakfast">Breakfast</a>
+                <a href="#" class="menu-btn" id="lunch">Lunch</a>
+                <a href="#" class="menu-btn" id="dinner">Dinner</a>
+                <a href="#" class="menu-btn" id="sides">Sides</a>                
+            </div>
+        </div>
+        <div class = "menu_flex">
+                <!--Start item-->
+                    <div class = " food-item chef-recommendation">
+                        <div class = "food-img">
+                            <img src = "Images/chef_recommendation_01.jpeg" alt = 'food-image' class = "img">
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name">Shoyu Ramen</h2>
+                            <div class = "line"></div>
+                            <h3 class = "food-price">  Price: $12.00 </h3>
+                            <p class = "description">
+                                Experience the symphony of flavors as you delve into our Shoyu Ramen. The richness of soy-based broth intertwines with springy noodles, creating a delectable base for tender seasoned pork, green onions, and nori. Every spoonful is a delightful journey through umami-infused layers, leaving a lasting impression on your palate.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                 <!--eND item-->
+
+                 <!--Start item-->
+                    <div class = "food-item breakfast">
+                        <div class = "food-img">
+                            <img src = "Images/breakfast_01.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Toast </h2>
+                            <div class = "line"></div>
+                            <h3 class = "food-price"> Price: $8.00 </h3>
+                            <p class = "description"> Sunrise Bliss Toast, a delectable creation featuring perfectly poached eggs nestled atop crispy bacon, served on a bed of toasted artisanal bread. The harmonious blend of flavors and textures creates a symphony for your taste bud.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = " food-item lunch">
+                        <div class = "food-img">
+                            <img src = "Images/lunch_01.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Mediterranean Plate </h2>
+                            <div class = "line"></div>
+                            <h3 class = "food-price"> Price: $25.00 </h3>
+                            <p class = "description">Embark on a culinary journey through the Mediterranean with our exquisite platter. Revel in the rich creaminess of hummus, savor the savory goodness of falafels, and experience the warm embrace of freshly baked pita bread</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item dinner">
+                        <div class = "food-img">
+                            <img src = "Images/dinner_01.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Prawn Aglio Olio </h2>
+                            <div class = "line"></div>
+                            <h3 class = "food-price"> Price: $18.00 </h3>
+                            <p class = "description">
+                                Embark on a culinary adventure with our Prawn Aglio Olio, a true masterpiece. Carefully selected and perfectly cooked succulent prawns take center stage, bathed in a delightful Aglio Olio sauce. This expertly crafted dish promises a symphony of flavors, from subtle garlic infusion to aromatic olive oil, ensuring a delightful journey for your taste buds.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item sides">
+                        <div class = "food-img">
+                            <img src = "Images/sides_01.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Garlic Bread </h2>
+                            <div class = "line"></div>
+                            <h3 class = "food-price"> Price: $5.00 </h3>
+                            <p class = "description">Savor the extraordinary with our signature Garlic Bread, a culinary revelation that transcends the ordinary. Crafted with passion and enriched with an abundance of garlic flavor, each bite is a celestial journey into a realm of unparalleled taste. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+
+                        <!--SET 2-->
+                    <div class = "food-item chef-recommendation">
+                        <div class = "food-img">
+                            <img src = "Images/chef_recommendation_02.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name">  Signature Pizza </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $15.00 </h3>
+                            <p class = "description"> Our Signature Pizza is a culinary masterpiece that transcends traditional flavors. Crafted with a perfect blend of premium ingredients, each bite is an explosion of taste and texture. The finest crust, topped with carefully selected toppings, makes this pizza a delightful journey for your palate.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item breakfast">
+                        <div class = "food-img">
+                            <img src = "Images/breakfast_02.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Bacon n Cheese </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $8.00 </h3>
+                            <p class = "description">Indulge in the Bacon & Cheese Delight, a morning delight that combines the rich flavors of crispy bacon and creamy cheese. Served with perfection, this breakfast item is a savory treat that will kickstart your day with a burst of deliciousness.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item lunch">
+                        <div class = "food-img">
+                            <img src = "Images/lunch_02.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Egg Fried Rice </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $12.00 </h3>
+                            <p class = "description">Our Local Delight Egg Fried Rice is a celebration of local flavors, bringing the essence of traditional culinary art to your plate. Immerse yourself in the fragrant aroma of perfectly cooked rice, expertly stir-fried with farm-fresh eggs and a medley of locally sourced vegetables. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item dinner">
+                        <div class = "food-img">
+                            <img src = "Images/dinner_02.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Buriito  </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $14.00 </h3>
+                            <p class = "description"> Dive into the world of Mexican cuisine with our Authentic Mexican Burrito. This culinary masterpiece features a carefully curated blend of seasoned rice, flavorful protein, vibrant vegetables, and a generous helping of beans, all wrapped in a soft tortilla. The interplay of spices, the richness of the beans, and the freshness of the veggies create a sensory explosion</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item sides">
+                        <div class = "food-img">
+                            <img src = "Images/sides_02.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Fries </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $3.00 </h3>
+                            <p class = "description"> Indulge in the simple yet irresistible pleasure of our Crispy Golden Fries. Savor the crispy perfection of each fry as it tempts your taste buds with its golden exterior and fluffy interior. Seasoned to perfection, these fries are the ideal side to complement any main course. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                     <!--SET 3 -->
+                    <div class = "food-item chef-recommendation">
+                        <div class = "food-img">
+                            <img src = "Images/chef_recommendation_03.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Mexican Taco </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $12.00 </h3>
+                            <p class = "description">Embark on a flavor-filled journey with our Savory Taco Delight. Each bite is a symphony of rich and vibrant tastes, harmonizing seasoned meat, fresh veggies, and zesty sauces wrapped in a warm tortilla. The combination of textures and flavors makes our taco a standout choice, offering a delightful blend of spice and freshness. .</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item breakfast">
+                        <div class = "food-img">
+                            <img src = "Images/breakfast_03.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Classic Pancakes </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $5.00 </h3>
+                            <p class = "description">Indulge in the timeless delight of our Classic Pancakes. Light, fluffy, and cooked to perfection, these pancakes are a breakfast favorite. Served with a drizzle of syrup and a dollop of butter, each bite is a heavenly experience</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item lunch">
+                        <div class = "food-img">
+                            <img src = "Images/lunch_03.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Arriabata Pasta </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $13.00 </h3>
+                            <p class = "description">Delight your taste buds with our Spicy Arrabbiata Pasta. Crafted with al dente pasta bathed in a zesty tomato and chili sauce, this dish is a celebration of bold flavors. The harmonious blend of spices and herbs creates a symphony of taste that will transport you to the heart of Italy</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item dinner">
+                        <div class = "food-img">
+                            <img src = "Images/dinner_03.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Lamb Chops </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $23.00 </h3>
+                            <p class = "description">
+                                Indulge in culinary excellence with our Succulent Lamb Chops. Each chop is a grilled masterpiece, boasting tenderness and rich flavor. Meticulously seasoned, these chops offer a succulent, juicy bite that elevates your dining experience. Immerse yourself in the symphony of flavors, as perfectly grilled lamb takes center stage, ensuring a culinary journey of unparalleled delight.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item sides">
+                        <div class = "food-img">
+                            <img src = "Images/sides_03.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Crispy Chicken Wings </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $5.00 </h3>
+                            <p class = "description"> Experience the irresistible taste of our Crispy Chicken Wings, expertly seasoned and cooked to perfection. Dive into a world of flavor with our diverse selection of delicious dips, creating the perfect combination for a satisfying snack.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+
+                                    <!--SET 4-->
+                    <div class = "food-item chef-recommendation">
+                        <div class = "food-img">
+                            <img src = "Images/chef_recommendation_04.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Nasi Lemak </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $9.00 </h3>
+                            <p class = "description">Immerse yourself in the vibrant flavors of our Nasi Lemak, a beloved Malaysian delight. Our chef's recommendation features fragrant coconut rice paired with an array of delectable accompaniments, including savory anchovies, crunchy peanuts, a perfectly boiled egg, and the signature sambal sauce. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item breakfast">
+                        <div class = "food-img">
+                            <img src = "Images/breakfast_04.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Salad </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $6.00 </h3>
+                            <p class = "description">Elevate your dining experience with our refreshing Salad, meticulously crafted to be a perfect blend of crisp greens, vibrant vegetables, and tantalizing dressings. This breakfast option is a delightful symphony of freshness and flavor, offering a healthy and invigorating start to your day.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item lunch">
+                        <div class = "food-img">
+                            <img src = "Images/lunch_04.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Mac N Chesse </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $11.00 </h3>
+                            <p class = "description">Dive into the creamy indulgence of our Mac N Cheese, a timeless comfort dish that promises pure satisfaction. Immerse yourself in the perfect union of al dente pasta and a velvety cheese sauce that's rich, smooth, and utterly delicious.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item dinner">
+                        <div class = "food-img">
+                            <img src = "Images/dinner_04.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Go Green Pizza </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $12.00 </h3>
+                            <p class = "description">This chef-crafted pizza is adorned with a colorful array of fresh, locally sourced vegetables, providing a harmonious blend of flavors and textures. Every bite is a celebration of health and taste, offering a guilt-free indulgence that satisfies your cravings</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item sides">
+                        <div class = "food-img">
+                            <img src = "Images/sides_04.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Calamari </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $4.00 </h3>
+                            <p class = "description"> Immerse yourself in the delectable taste and crispy texture of perfectly seasoned calamari rings, served with a side of tangy dipping sauce. This seafood sensation is an ideal choice for those seeking a delightful appetizer that captures the essence of coastal dining. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+
+                    <!--  SET 5 -->
+
+                    <div class = "food-item chef-recommendation">
+                        <div class = "food-img">
+                            <img src = "Images/chef_recommendation_05.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Beef Biriyani </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $12.00 </h3>
+                            <p class = "description">Indulge in the rich and aromatic flavors of our signature biryani, a local delight. It is made out of fragrant basmati rice, infused with a symphony of spices, and layered with slow-cooked and marinated meat, creating an exquisite culinary experience that transports you to the heart of traditional perfection.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item breakfast">
+                        <div class = "food-img">
+                            <img src = "Images/breakfast_05.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Sandwhich </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $7.00 </h3>
+                            <p class = "description">Start your day on a appetising note, with our Breakfast Sandwich. Crafted from a light and fluffy artisan bun with a perfectly fried or scramble egg and thinly sliced premium quality crispy bacon, along with a freshly brewed coffee, this breakfast sandwich is the perfect way to kickstart your day. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item lunch">
+                        <div class = "food-img">
+                            <img src = "Images/lunch_05.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Griiled Salmon  </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $16.00 </h3>
+                            <p class = "description">Taste the oceans bounty with our exquisite Grilled Salmon. This dish features a fresh salmon fillet marinated in a flavourful blend of herbs and spices. Complimenting the salmon, there is lightly sautéed seasonal vegetables and a blanc sauce.
+                                good name for salmon dish</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item dinner">
+                        <div class = "food-img">
+                            <img src = "Images/Our_Top_Picks_01.jpg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Griiled Ribeye </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $23.00 </h3>
+                            <p class = "description">A timeless favorite, our classic ribeye steak is packed with flavor, exceptionally tender, and irresistibly juicy. Our classic ribeye is more than a dish; it's a celebration of bold flavors in a perfectly cooked steak, leaving you with a memorable taste that lingers.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--eND item-->
+
+                    <!--Start item-->
+                    <div class = "food-item sides">
+                        <div class = "food-img">
+                            <img src = "Images/sides_05.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Onion Rings </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $3.00 </h3>
+                            <p class = "description">Add a crunchy and savory delight to your meal with Onion Rings, where each golden ring is a testament to the perfect blend of thick, sweet onions and a savory batter. Hand-cut to perfection, these rings offer a symphony of flavors, balancing the natural sweetness of the onions with the irresistible savoriness of the batter.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                    <!--Set 6-->
+                    <div class = "food-item chef-recommendation">
+                        <div class = "food-img">
+                            <img src = "Images/chef_recommendation_06.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Chicken Rice </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $12.00 </h3>
+                            <p class = "description">Experience the epitome of comfort and flavor of our signature Chicken Rice, a culinary masterpiece that pays homage the local culture.  At the heart of this dish is our tender and poached chicken, and the fragrant rice infused with herbs and spices. This is accompanied by by an array of garnishes such as crisp cucumber and fresh aromatic cilantro. </p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                     <!--eND item-->
+    
+                     <!--Start item-->
+                    <div class = "food-item breakfast">
+                        <div class = "food-img">
+                            <img src = "Images/breakfast_06.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Avacdo Toast </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $3.00 </h3>
+                            <p class = "description">
+                                Awaken your senses with our Avocado Toast, a wholesome morning delight. Velvety avocado, smashed and seasoned with sea salt, black pepper, and zesty lemon, delicately spread on golden, crispy artisanal bread. A nutritious and flavorful way to kickstart your day.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                     <!--eND item-->
+    
+                     <!--Start item-->
+                    <div class = "food-item lunch">
+                        <div class = "food-img">
+                            <img src = "Images/lunch_06.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Beef Lasgana </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $20.00 </h3>
+                            <p class = "description">Indulge in the classic Italian dish, Beef Lasagne, a culinary masterpiece that blends rich savory flavors with perfectly baked pasta. Comprising layered pasta sheets blanketed with savory bolognese sauce made from ground beef, béchamel sauce between layers, baked to golden perfection.</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                     <!--eND item-->
+    
+                     <!--Start item-->
+                    <div class = "food-item dinner">
+                        <div class = "food-img">
+                            <img src = "Images/Our_Top_Picks_02.jpg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Beef Burger </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $15.00 </h3>
+                            <p class = "description"> Grilled to perfection, each bite unveils a symphony of flavors, from the charred outer layer to the juicy, well-seasoned core. Topped with fresh, crisp vegetables and nestled in a soft bun, this burger is a delightful journey for your taste buds</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+                     <!--eND item-->
+    
+                     <!--Start item-->
+                    <div class = "food-item sides">
+                        <div class = "food-img">
+                            <img src = "Images/sides_06.jpeg" alt = 'food-image' class = 'img'>
+                        </div>
+                        <div class = "food-content">
+                            <h2 class = "food-name"> Dumplings  </h2>
+                            <div class = line></div>
+                            <h3 class = "food-price"> Price: $7.00 </h3>
+                            <p class = "description">Embark on a delightful culinary adventure with our delicious Dumplings, a sensational side. These bite-sized are crafted from thin, tender wrappers that encase a medley of savory fillings. Choose from a variety of options, including succulent minced pork, aromatic chicken, or vibrant vegetable combination</p>
+                            <a  href="#" class = "Order">Order Now</a>
+                        </div>
+                    </div>
+    
+
+
+        </div>
+
+    </section>
+    <footer class = "footer">
+        <div class = "footer_flex">
+            <div class = 'footer-col'>\
+                <h4> Home </h4>
+                <ul>
+                    <li><a href = "#"> Our Services </a></li>
+                    <li><a href = "#"> Special offer </a></li>
+                    <li><a href = "#"> Testimonial </a></li>
+                </ul>
+            </div>
+
+            <div class = 'footer-col'>\
+                <h4> Our Menu </h4>
+                <ul>
+                    <li><a href = "#"> Our Top Picks </a></li>
+                    <li><a href = "#"> Delcious Delighst </a></li>
+                </ul>
+            </div>
+
+            <div class = 'footer-col'>\
+                <h4> Our Services </h4>
+                <ul>
+                    <li><a href = "#"> About Us</a></li>
+                    <li><a href = "#"> Our Services </a></li>
+                    <li><a href = "#"> Special offer </a></li>
+                    <li><a href = "#"> Testimonial </a></li>
+                </ul>
+            </div>
+
+            <div class = 'footer-col'>\
+                <h4> About Us </h4>
+                <ul>
+                    <li><a href = "#"> Founders </a></li>
+                    <li><a href = "#"> Hall of Fame  </a></li>
+                    <li><a href = "#"> Our Team </a></li>
+                    <li><a href = "#"> Behind The Scenes</a></li>
+                </ul>
+            </div>
+
+            <div class = 'footer-col'>\
+                <h4> Follow us </h4>
+                <div>
+                    <a href = "#"><i class = "fab fa-facebook-f"></i></a>
+                    <a href = "#"><i class = "fab fa-twitter"></i></a>
+                    <a href = "#"><i class = "fab fa-instagram"></i></a>
+                    <a href = "#"><i class = "fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Links */
+a {
+    cursor: pointer;
+}
+
+/* Fonts */
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FAF0DC ;
+    overflow: scroll; /* Show scrollbars */
+}
+
+/* Header */
+.header-main{
+    width: 100%;
+    height: 100px;
+    background-color: #0B4141;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+
+/* Header Logo */
+.header-main-logo{
+    width: fit-content;
+    height: 100%;
+
+    display: flex;
+    padding-left: 20px;
+}
+.header-main-logo img {
+    height: 100px;
+}
+
+/* Header Navigation */
+.header-main-nav {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+}
+
+.header-main-title {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Ubuntu;
+    margin-left: 10px;
+    color: #FAF0DC;
+}
+
+.header-main-nav ul {
+    list-style: none;
+    margin-left: 30px;
+    display: flex; /* Add flex display to make inline styling work */
+}
+
+.header-main-nav ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+/* Navigation links styling */
+.header-main-nav ul li a {
+    padding: 0 10px;
+    font-family: 'Arial', sans-serif; /* Change the font-family to a more common one */
+    line-height: 100px;
+    font-size: 20px; /* Reduce the font size for better readability */
+    font-weight: normal; /* Use normal font weight */
+    color: #FAF0DC;
+    text-decoration: none; /* Remove the default underlining */
+    transition: text-decoration 0.3s
+    
+}
+
+/* Hover effect on navigation links */
+.header-main-nav ul li a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* Header Button */
+.header-main-button {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+    align-items: center; /* Vertically center the button */
+    padding: 0 50px;
+}
+
+/* Button styling */
+.header-main-button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white; /* Set text color for the button */
+    padding: 10px 40px; /* Adjust padding for the button */
+    border: 2px solid white; /* Add a border for the button */
+    border-radius: 200px; /* Round the button corners */
+    background-color: #FF6864 ;
+    transition: background-color 0.3s, color 0.3s; /* Add hover effect */
+}
+
+
+/* Hover effect on the button */
+.header-main-button a:hover {
+    background-color: orange; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+
+
+.Page_01_background,.Page_02_Background,.Page_03_background{
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 690px; 
+  background-position: center top;
+  padding: 1px 0;
+  position: relative;
+  }
+
+
+/* Same background text styling for page 1,3,4,5 with media queries */
+.Page_01_Title, .Page_03_Title,.Page_04_Title {
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.Page_01_Title h1, .Page_03_Title h1 ,.Page_04_Title h1 {
+  font-size: 80px;
+  letter-spacing: -1px;
+}
+
+.Page_01_Title p, .Page_03_Title p ,.Page_04_Title p{
+  font-size: 20px;
+}
+
+/* bckground styling */
+@media only screen and (max-width: 768px) {
+.Page_01_background, .Page_03_background, .Page_04_background{
+    height: 500px; 
+}
+
+
+.Page_01_Title h1, .Page_03_Title h1 ,.Page_04_Title h1 {
+    font-size: 35px; 
+}
+
+.Page_01_Title, .Page_03_Title p ,.Page_04_Title p {
+    font-size: 16px; 
+}
+}
+
+/* Media query for even smaller screens */
+@media only screen and (max-width: 480px) {
+.Page_01_background, .Page_03_background, .Page_04_background {
+    height: 400px; /* Further adjust the height for even smaller screens */
+}
+
+
+.Page_01_Title, .Page_03_Title h1,.Page_04_Title h1 {
+    font-size: 20px; /* Further adjust the font size for even smaller screens */
+}
+
+.Page_01_Title, .Page_03_Title p,.Page_04_Title {
+    font-size: 14px; /* Further adjust the font size for even smaller screens */
+}
+}
+
+
+
+
+
+
+
+
+
+/* PAGE 03 and PAGE 04 ALTERNATIVE TXT AND IMG LAYOUT */.
+.Page_04_About_Us, .Our_Type_Services{
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+}
+
+.Page_04_About_Us_img_container,.Our_Type_Services_img_container {
+  max-width: 600px;
+  width: 100%;
+  height: 100%; /* Add this line to make the image take up the full height */
+}
+
+.Page_04_About_Us_pic,.Our_Services_pic {
+  height: 450px; 
+  width: 612px;
+  max-width: 100%;
+  border-radius: 10%;
+  margin-top:2%;
+  box-shadow: 10px 5px 5px rgb(173, 170, 170);
+}
+
+
+.Page_04_About_Us_flex,.Our_Type_Services_flex {
+  --background-color: violet;
+  width: 100%;
+  max-width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.Page_04_About_Us_text,.Our_Type_Services_text {
+  --background-color: yellow;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  margin-top: 2%;
+  margin-bottom: 2%; 
+  padding: 10px; 
+}
+
+.Page_04_About_Us h1,.Our_Type_Services h1 {
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
+  margin: 5%;
+  
+}
+
+.Page_04_About_Us_text h2,.Our_Type_Services_text h2 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.Page_04_About_Us_text p,.Our_Type_Services_text p{
+  font-size: 25px;
+  font-weight: 300;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+/* Screen Adjustments for the above kayout */
+@media only screen and (max-width: 768px) {
+.Our_Type_Services_flex,.Page_04_About_Us_flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.Our_Type_Services_text,.Page_04_About_Us_text {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+.Our_Services_pic,.Page_04_About_Us_pic {
+    margin-bottom: 5px;
+}
+.Our_Type_Services h1,.Page_04_About_Us h1 {
+    font-size: 40px;
+}
+.Our_Type_Services_text h2,.Page_04_About_Us_text h2 {
+    font-size: 35px;
+}
+.Our_Type_Services_text p ,.Page_04_About_Us_text p{
+    font-size: 20px;
+}
+.Our_Type_Services_text,.Page_04_About_Us_text:nth-child(odd) {
+    order: 2; /* Change order for odd-numbered .text elements */
+  }
+.Order{
+    font-size: 18px;}
+}
+/* Smaller Screen */
+@media only screen and (max-width: 480px) {
+.Our_Type_Services_flex,.Page_04_About_Us_flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.Our_Type_Services_text,.Page_04_About_Us_text {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 5%;
+}
+
+.Our_Services_pic,.Page_04_About_Us_pic {
+    height:300px;
+    margin-bottom: 5px;
+}
+.Our_Type_Services h1,.Page_04_About_Us h1 {
+    font-size: 30px;
+}
+.Our_Type_Services_text h2,.Page_04_About_Us_text h2 {
+    font-size: 25px;
+}
+.Our_Type_Services_text p,.Page_04_About_Us_text p{
+    font-size: 16px;
+}
+.Our_Type_Services_text.,.Page_04_About_Us_text:nth-child(odd) {
+    order: 2; /* Change order for odd-numbered .text elements */
+}
+.Book_Now{
+    font-size: 15px;}
+}
+@media only screen and (min-width: 768px){
+  .Our_Type_Services_flex,.Page_04_About_Us_flex {
+    flex-direction: row;
+    flex-wrap:nowrap;
+}
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.footer {
+    --background-color: aqua;
+    margin: 0;
+  }
+  
+  .footer_flex {
+    background-color:#0B4141;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    align-items: flex-start;
+    
+  }
+  
+  .footer-col{
+    margin-bottom: 3%;
+  }
+  
+  .footer-col h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:#f8f8f8;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 123, 0);
+    
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    color:#f8f8f8
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 5px;
+    color:#f8f8f8;
+  }
+  
+  .footer-col a {
+    text-decoration: none;
+    color:#f8f8f8;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+  
+  .footer-col div a {
+    margin-right: 15px;
+    color:#fff;
+  }
+  
+  .footer-col i {
+    font-size: 32px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .footer-col{
+        width: 40%;
+        margin-bottom: 30px;
+        
+    }
+    
+  }
