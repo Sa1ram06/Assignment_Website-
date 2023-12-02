@@ -16,10 +16,9 @@
 <!-- Header section with logo, navigation, and order button -->
 
     <!-- Header section with logo, navigation, and order button -->
-    <header class = "header-main"> 
-        <div class = "header-main-logo"> 
-            <img src = "Images/logo_header.png" alt = "image logo">
-            <!-- Navigation links -->
+    <header class="header-main">
+        <div class="header-main-logo">
+            <img src="Images/logo_header.png" alt="image logo">
             <nav class="header-main-nav">
                 <h1 class="header-main-title">KicknCuisine</h1>
                 <ul>
@@ -47,12 +46,33 @@
                     <li><a href="..//Page_05/page_05.html">Contact Us</a></li>
                 </ul>
             </nav>
+            <div class="header-main-button">
+                <a href="..//sign_in_page/sign_in.html">Sign in/Up</a>
+            </div>
         </div>
-        <!-- Order Now button -->
-        <div class = "header-main-button">
-             <a href="..//sign_in_page/sign_in.html">Sign in/Up</a>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars" onclick="toggleMobileMenu()"></i>
+        </div>
+        <div class="header-main-logo-mobile">
+            <img src="Images/logo_header.png" alt="image logo">
+            <h1 class="header-mobile-main-title">KicknCuisine</h1>
+        </div>
+        <div class="header-main-nav-mobile" id="mobile-menu">
+            <ul>
+                <li><a href="../Page_01/index.html">Home</a></li>
+                <li><a href="..//Page_02/page_02.html">Our Menu</a></li>
+                <li><a href="..//Page_03/page_03.html">Our Services</a></li>
+                <li><a href="..//Page_04/page_04.html">About Us</a></li>
+                <li><a href="..//Page_05/page_05.html">Contact Us</a></li>
+            </ul>
         </div>
     </header>
+    <script>
+        function toggleMobileMenu() {
+            var mobileMenu = document.getElementById("mobile-menu");
+            mobileMenu.style.display = (mobileMenu.style.display === "flex") ? "none" : "flex";
+        }
+    </script>
 
      <!-- Background section with a title and description -->
     <section class = "Page_05_background">

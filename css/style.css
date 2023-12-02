@@ -13,7 +13,6 @@ background-image: linear-gradient(rgba(10, 18, 50, 0.7),rgba(4,9,30,0.7 )),url("
 width: 100%;
 height: auto;
 margin: 40px 0;
---background-color: darkolivegreen;
 }
 
 /* Image container styling */
@@ -168,13 +167,11 @@ width: 100%;
 max-width: 100%; 
 height: auto;
 padding: 20px 0;
---background-color: crimson;
 }
 .Our-Services h1{               
 font-size: 60px;
 font-weight: 600;
 text-align: center;
---background-color: darkgoldenrod;
 }
 
 /* Container for Service Items */
@@ -186,16 +183,12 @@ flex-wrap: wrap;
 width: 100%;
 max-width: 100%;
 margin: 40px auto;
---background-color: darkgreen;
-
 }
 
 /* Overlay Box Style */
 .overlay-box{
 position: relative;
 width: 500px;
---background-color: aqua;
-
 }
 
 /* Service Item Image Style */
@@ -206,7 +199,6 @@ height: 405px;
 width: 100%;
 max-width:100%;
 border-radius: 10%;
---background-color: blue;
 }
 
 /* Overlay Style */
@@ -298,14 +290,12 @@ opacity: 1;
 font-size: 60px;
 font-weight: 600;
 text-align: center;
---background-color: darkgoldenrod;
 }
 .Special_offers{
 width: 100%; 
 height: auto;
 padding: 10px 0;
 margin-bottom: 5%;
---background-color: aquamarine;
 }
 
 
@@ -317,7 +307,6 @@ width: 100%;
 max-width: 98%;
 margin: 40px auto;  
 flex-wrap: wrap;
---background-color:coral;
 }
 
 
@@ -325,7 +314,6 @@ flex-wrap: wrap;
 position: relative;
 width: 400px;
 height: auto;
---background-color:fuchsia;
 margin-bottom: 5%;
 }
 .special_offer_box{
@@ -436,7 +424,6 @@ color: white
 
 /* Testmonials  */
 .Testimonials{
---background-color: chartreuse;
 width: 100%; 
 height: auto;
 padding: 5px 0;
@@ -447,7 +434,6 @@ padding: 5px 0;
 font-size: 60px;
 font-weight: 600;
 text-align: center;
---background-color: darkgoldenrod;
 }
 /* Flex properties */
 .Testimonial_flex{
@@ -458,7 +444,6 @@ align-items: center;
 width: 100%;
 max-width: 98%;
 margin: 40px auto;
---background-color:coral;
 }
 /* Container insjde dlexbox*/
 .testimonial_row{
@@ -533,23 +518,12 @@ font-size: 20px;
   
 }
 
-
-
-
-
-
-
-
-
-
-
 /* PAGE_02 STYLING */
 
 .Page_02_background{
     background-color: rgba(10, 18, 50, 0.3);
     width: 100%;
     height: 690px; /* Set the desired height */
-
     position: relative;
     overflow: hidden;
     }
@@ -603,7 +577,6 @@ font-size:20px;
     width: 90%;
     height: auto;
     margin: 40px 0;
-   --background-color: aqua;
 }
 /* Section: Image Container */
 .Our_Top_img_container {
@@ -641,7 +614,6 @@ font-size:20px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 5%;
-    --background-color: darkgoldenrod;
 }
 /* Section: Heading 2 Styling */
 .Our_Top_text h2 {
@@ -703,7 +675,6 @@ font-size:20px;
   /* Resetting some default styles */
   /* Styling the menu section */
   .menu{
-    --background-color:aqua;
     padding: 20px;
   }
   /* Styling for menu buttons */
@@ -731,7 +702,6 @@ font-size:20px;
 }
 /* Styling for menu heading */
 .menu-head h2 {
-    --background-color: darkgoldenrod;
     font-size: 60px;
     margin-bottom: 20px;
     text-align: center;
@@ -742,7 +712,6 @@ font-size:20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  --background-color: deeppink;
 }
 /* Styling for food items */
 .food-item {
@@ -756,8 +725,6 @@ font-size:20px;
   max-width: 400px;
   width: 100%;
   border-radius: 5%;
-  --background-color: mediumpurple;
-
 }
 .img {
   width: 90%;
@@ -901,7 +868,6 @@ font-size:20px;
     font-size: 60px;
     font-weight: 600;
     text-align: center;
-    --background-color: darkgoldenrod;
 }
 
 .Upcoming_Event {
@@ -909,7 +875,6 @@ font-size:20px;
     height: auto;
     padding: 10px 0;
     margin-bottom: 5%;
-    --background-color: aquamarine;
 }
 /* flex box */
 .Upcoming_Event_flex {
@@ -920,14 +885,12 @@ font-size:20px;
     max-width: 100%;
     margin: 40px auto;
     flex-wrap: wrap;
-    --background-color: coral;
 }
 /* content */
 .Upcoming_Event_container {
     position: relative;
     width: 600px;
     height: auto;
-    --background-color: fuchsia;
     margin-bottom: 5%;
 }
 /* Text */
@@ -1050,14 +1013,12 @@ font-size:20px;
     max-width: 100%; 
     height: auto;
     padding: 10px 0;
-    --background-color: crimson;
     }
 /* Styling for Hall of frame section h1 tag */
     .Hall_of_Fame h1{               
     font-size: 60px;
     font-weight: 600;
     text-align: center;
-    --background-color: darkgoldenrod;
     }
     /* Styling for Hall of frame section flex box*/
     .Hall_of_Fame_flex {
@@ -1068,8 +1029,6 @@ font-size:20px;
     width: 100%;
     max-width: 90%;
     margin: 40px auto;
-    --background-color: darkgreen;
-    
     }
     
       /* Styling for Hall of frame section  box*/
@@ -1077,8 +1036,6 @@ font-size:20px;
     position: relative;
     width: 470px;
     margin-bottom: 5%;
-    --background-color: aqua;
-    
     }
     
     /* Hall of fame Image Style */
@@ -1089,7 +1046,6 @@ font-size:20px;
     height: 350px;
     border-radius: 10%;
     box-shadow: 10px 5px 5px rgb(173, 170, 170);
-    --background-color: blue;
     }
     /* Hall of fame text Style */
     .Hall_of_fame_text{
@@ -1100,7 +1056,6 @@ font-size:20px;
     .Hall_of_fame_text h2 {
         font-size: 30px;
         font-weight: 600;
-        --background-color: darkorange;
         margin-bottom: 10px;
     }
     
@@ -1215,7 +1170,6 @@ font-size:20px;
         max-width: 100%; 
         height: auto;
         padding: 10px 0;
-        --background-color: crimson;
         }
     /* Styling for BEHIND THE SCENE section h1 tag */
         .Behind_scene h1{               
@@ -1233,15 +1187,12 @@ font-size:20px;
         width: 90%;
         max-width: 100%;
         margin: 40px 20px;
-        --background-color: darkgreen;
-        
         }
         
             /* Styling for BEHIND SCENE section  box*/
         .Behind_scene_box{
         width: 470px;
         margin-bottom: 5%;
-        --background-color: aqua;
         }
         .behind_scene_video{
             border-radius: 10%;
@@ -1424,7 +1375,6 @@ font-size:20px;
             max-width: 100%;
             height: auto;
             padding: 10px 0;
-            --background-color: yellow;
         }
         /* Header */
         .Contact_Form h1 {
@@ -1463,7 +1413,7 @@ font-size:20px;
             margin-bottom: 5px;
         }
         
-        .Container input,
+         input,
         textarea {
             width: 98%;
             padding: 8px;
@@ -1473,7 +1423,7 @@ font-size:20px;
             background-color: #FAF0DC;
         }
         
-        .button {
+        .button{
             width: 100%;
             padding: 10px;
             background-color: darkorange;
