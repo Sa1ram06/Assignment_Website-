@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In </title>
+    <link rel="stylesheet" href = "../css/common_style.css">
+    <link rel="stylesheet" href = "../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;300&family=Playpen+Sans:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/543bcc20b3.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+         <!-- Login container -->
+        <div class = "Login">
+              <!-- Form box containing Sign In and Sign Up forms -->
+            <div class = "form-box">
+                 <!-- Button box for toggling between Sign In and Sign Up -->
+                <div class ="button-box">
+                      <!-- Button to switch to Sign In form -->
+                    <div id ="btn"></div>
+                    <button type="button" class = "toggle-btn" onclick="Sign_In()">Sign In </button>
+                    <button type="button" class = "toggle-btn" onclick="Sign_Up()">Sign Up </button>
+                </div>
+                <!-- Social icons for alternative login methods -->
+                <div class = 'social-icons'>
+                    <a href = "https://accounts.google.com/"><i class="fa-brands fa-google"></i></a>
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href = 'https://www.facebook.com/'><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+                <!-- Sign In form with validation -->
+                <form id = "Sign_In" class = "login_input-group" onsubmit="return validateSignIn()">
+                 <div class="error_login_page" id="error_message_sign_in"></div>
+                    <!-- Input field for username -->
+                    <div class = "input-field">
+                        <label> Username </label>
+                        <input type = "text" placeholder="Enter your username" id = "name_sign_in">
+                    </div>
+                     <!-- Input field for password -->
+                    <div class = "input-field">
+                        <label> Password </label>
+                        <input type = "password" placeholder="Enter your Password" id = "password_sign_in">
+                    </div>
+                     <!-- Forgot password link -->
+                    <div class = "forgot">
+                        <a href = "#">Forgot Passwod </a>
+                    </div>
+                      <!-- Submit button for Sign In -->
+                    <button type = "submit" class ="submit-btn">Sign In</button>
+                </form>
+
+                <!-- Sign Up form with validation -->
+                <form id = "Sign_Up" class = "login_input-group" onsubmit="return validateSignUp()">
+                    <!-- Error message container for Sign Up form -->
+                    <div class="error_login_page" id="error_message_sign_up"></div>
+                   <!-- Input field for full name -->
+                    <div class = "input-field">
+                        <label>Full Name </label>
+                        <input type = "text" placeholder="Enter your name" id = "name_sign_up">
+                    </div>
+                    <!-- Input field for email address -->
+                    <div class = "input-field">
+                        <label> Email Address </label>
+                        <input type = "email" placeholder="Enter your email" id = "email_sign_up">
+                    </div>
+                    <!-- Input field for password -->
+                    <div class = "input-field">
+                        <label> Password </label>
+                        <input type = "password" placeholder="Enter your Password" id = "password_sign_up">
+                    </div>
+                      <!-- Input field for confirming password -->
+                    <div class = "input-field">
+                        <label>     Confirm assword </label>
+                        <input type = "password" placeholder="Confirm Password" id = "cfm_password_sign_up">
+                    </div>
+                      <!-- Submit button for Sign Up -->
+                    <button type = "submit" class ="submit-btn">Sign Up </button>
+                </form>
+                <script src = "javascript.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
