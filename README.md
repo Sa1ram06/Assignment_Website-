@@ -1,5 +1,5 @@
 # Assignment_Website-
-# KicknCuisin22e
+# KicknCuisine
 
 ## Project Overview
 
