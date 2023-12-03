@@ -1,4 +1,7 @@
 # Assignment_Website-
+README File Fed Assignment_01
+Name: Sairam
+Student ID: S10259930
 Project Name: KicknCuisin22e
 Overview: 
 A place where the thrill for football collides with the joy of exquisite dining. Our goal is to forge a fusion between the passion for football and love for delightful food. Taking inspiration from karaoke, users go beyond just enjoying the football match but also celebrating every goal and victory with delicacies.
@@ -11,8 +14,11 @@ Football Enthusiast: Avid fans with strong passion towards the sport. Bring alon
 Foodies: To elevate the football experience, we provide a wide range of cuisines not only from Singapore but also from around the world. The customers would be able to enjoy a variety of culinary delicacies from different cultures while enjoying themselves in the excitement of the game. 
 Event Organisers: To conduct and host private-viewing parties, a corporate gathering, there are different types of halls/Room catering the various needs of the event. Our wide range of room bookings allow not only create a wonderful atmosphere to watch a football game but also leave a lasting impression on your guests.
 
+
+
+
 Our Services
-Ordering Food: Providing both on-site and online ordering, allows wide range of users to use website. Our menu goes beyond serving local delights, offering dishes inspired from other cuisines such as Mediterranean, Mexican, Italian and many more. Each dish is carefully designed by chefs from various cultures, increasing the authenticity of food. This allows the customers to experience different flavour from various cultures. These delicate food options not only satisfies the customers tastebuds but also helps to enlighten the victories, celebration during the football match. 
+Ordering Food: Providing both on-site and online ordering, allows wide range of users to use website. Our menu goes beyond serving local delights, offering dishes inspired from other cuisines such as Mediterranean, Mexican, Italian and many more. Each dish is carefully designed by chefs from various cultures, increasing the authenticity of food. This allows the customers to experience different flavour from various cultures. These delicate food options not only satisfies the customers tastebuds but also helps to enlighten the victories, celebration during the football match. The website offers wide spectrum of selection which is the chef’s recommendation, breakfast, lunch, dinner and sides. This allows customers to enjoy the matches and food at any time of the day. 
 Booking room/event hall: There are various types of rooms/halls to cater the need of the user. It ranges from having a private room to enjoy the delicate food end entertaining football match, to halls to host a big company event. According to your preference, we would offer a space for you to celebrate both the delightful food and football match.
 1)	FanZone 
 An open space created for all users to come together and celebrate their favourite team in the football match. This allows customers to surround themselves with a community of like-minded fans which creates an uplifting atmosphere to enjoy the football match. The shared love and passion for football will transform each match into a memory.
@@ -20,6 +26,54 @@ An open space created for all users to come together and celebrate their favouri
 -	Users who feel to celebrate and enjoy the match in closed circle, will love this option as they would able to experience the football in a cozy room with delicate food provided. This room caters the needs of users who wants to celebrate the football matches with their close companions, friends and family.
 3)	Big Halls
 -	Companies or business who plans to host gathering or team bonding sessions would find these halls beneficial. This is because the space created is corporate yet vibrant for different teams to come together and share their love for football.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reference
+Group of fans are watching a soccer moment on the tv and celebrating. (n.d.). Rismedia. https://www.rismedia.com/wp-content/uploads/2020/08/group-of-fans-are-watching-a-soccer-moment-on-the-tv-and-celebrating-picture-id1059076422.jpg
+
+People watching football. (n.d.). Ontaponline. https://ontaponline.com/wp-content/uploads/2017/08/football-watching.jpg
+
+Friends having fun. (n.d.). Media.Istockphoto. https://media.istockphoto.com/id/940969252/photo/friends-having-fun-at-home.jpg?s=612x612&w=0&k=20&c=xHDVxr1_4O9VlUGJev3IWzpE7ek4V17knTyn3_TUkZU=
+
+People enjoying a match in a crowded bar. (n.d.). Tastingtable. https://www.tastingtable.com/img/gallery/washington-dc-bars-to-stay-open-24-hours-for-womans-world-cup/overcoming-a-big-time-difference-for-the-womens-world-cup-1687458917.jpg
+
+Manchester United vs Manchester City match. (n.d.). Bing. https://th.bing.com/th/id/OIP.5AtYDi5jYpgjCQVizx6uoAAAAA?rs=1&pid=ImgDetMain
+
+World Cup Trophy. (n.d.). Bing. https://th.bing.com/th/id/OIP.EqqaZwI0prfHgyI-F7U97QHaEK?rs=1&pid=ImgDetMain
+
+Manchester Derby. (n.d.). Media.Insider. https://media.insider.in/image/upload/c_crop,g_custom/v1673244803/kh6olrfdpw20givwdc8h.jpg
+
+Restaurant Interior. (n.d.). Resources Stuff Co. https://resources.stuff.co.nz/content/dam/images/1/m/y/i/o/r/image.related.StuffLandscapeSixteenByNine.710x400.1mf9h8.png/1511050339582.jpg
+
+Best Restaurant Awards. (n.d.). Foodiesfavorites. https://foodiesfavorites.com/spots-events/thuisbezorgd-beste-restaurants-awards-2017/
+
+Co-Founder. (n.d.). Master of Finance . https://www.master-of-finance.org/job-profiles/marketing-manager/
+
+Restaurant Manager. (n.d.). Careers Lidl. https://careers.lidl.co.uk/stores/meet-the-store-team/meet-maria-store-manager
+
+Chef Profile . (n.d.). Yorkshirepost. https://www.yorkshirepost.co.uk/lifestyle/food-and-drink/chef-profile-mark-york-from-true-north-in-halifax-3022199
+
+We Put 12 Cameras in A Tiny Restaurant Kitchen on Friday Night. (2023, January 27). [Video]. Youtube. Retrieved December 3, 2023, from https://www.youtube.com/watch?v=j5pcpuTWP6U
+
+Becoming a Chef | Full Service Restaurant Kitchen Behind The Scenes // RAW UNCUT. (2020, August 17). [Video]. Yotube. Retrieved December 3, 2023, from https://www.youtube.com/watch?v=9DqwJL8rN14
+
+Food Snapshots. (n.d.). Pngtree. https://pngtree.com/free-backgrounds-photos/italian-american-cuisine
+
+Pizza Background . (n.d.). Thcshoanghoatham. https://thcshoanghoatham-badinh.edu.vn/top-75-imagem-pizza-background-images/
+Website Reference
+Pexels: https://www.pexels.com/
+Font-Awesome: https://fontawesome.com/
 
 
 
