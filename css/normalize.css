@@ -31,7 +31,7 @@ body {
 
 .header-main-logo img {
   height: 100px;
-  max-width: 100%; /
+  max-width: 100%; 
 }
 
 .header-main-nav {
@@ -201,9 +201,6 @@ body {
   }
 }
 
-
-
-
 .Page_01_background,.Page_02_Background,.Page_03_background,.Page_05_background{
   background-size:cover;
   width: 100%;
@@ -269,7 +266,7 @@ body {
 }
 
 
-/* PAGE 03 and PAGE 04 ALTERNATIVE TXT AND IMG LAYOUT */.
+/* PAGE 03 and PAGE 04 ALTERNATIVE TXT AND IMG LAYOUT */
 .Page_04_About_Us, .Our_Type_Services{
   width: 100%;
   height: auto;
@@ -393,11 +390,12 @@ body {
 .Our_Type_Services_text p,.Page_04_About_Us_text p{
     font-size: 16px;
 }
-.Our_Type_Services_text.,.Page_04_About_Us_text:nth-child(odd) {
+.Our_Type_Services_text,.Page_04_About_Us_text:nth-child(odd) {
     order: 2; /* Change order for odd-numbered .text elements */
 }
 .Book_Now{
-    font-size: 15px;}
+    font-size: 15px;
+}
 }
 @media only screen and (min-width: 768px){
   .Our_Type_Services_flex,.Page_04_About_Us_flex {
@@ -473,8 +471,7 @@ body {
         width: 40%;
         margin-bottom: 30px;
         
-    }
-    
+    }  
   }
 
   

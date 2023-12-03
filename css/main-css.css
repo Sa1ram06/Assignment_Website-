@@ -1106,7 +1106,6 @@ font-size:20px;
     
     .Our_Team_flex{
         display:flex;
-        text-align:centre;
         width:auto;
         justify-content: space-around;
         align-items: center;
@@ -1261,7 +1260,6 @@ font-size:20px;
             font-size: 45px;
             font-weight: 600;
             text-align: center;
-            ==background-color: darkorange;
             margin: 10px;
         }
         
@@ -1341,7 +1339,7 @@ font-size:20px;
             .Page_05_Contact_flex {
                 flex-direction: row;
                 flex-wrap: nowrap;
-\                }
+                }
             
             .Page_05_Contact_text,
             .Page_05_Contact_Us_img_container{
@@ -1364,7 +1362,7 @@ font-size:20px;
             .contact-info p {
                 font-size: 25px; 
             }
-            }
+        }
         
         /* Styling for contact forms */
         .Contact_Form {
@@ -1437,7 +1435,7 @@ font-size:20px;
         }
         .error{
             width: 100%;
-            max-width: 98%;
+            max-width: 108%;
             border-radius: 20px;
             margin-bottom: 20px;
             padding: 0px;
@@ -1549,7 +1547,7 @@ font-size:20px;
             border-bottom: 2px solid #999;
             outline: none;
             border-radius: 10px;
-            background::#FAF0DC
+            background:#FAF0DC;
         }
         .Login label{
             font-size: 20px;
