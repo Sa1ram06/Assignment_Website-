@@ -58,7 +58,7 @@ There are various types of rooms/halls to cater the need of the user. It ranges 
 
 ## Technology Used
 
-- **HTML (Hyper MarkUp Language):** HTML serves as the foundational language for structuring the diverse content of a web page. It is used a building block for web development to cocreate a hierarchy. and relationships between elements. Tags such as <h1>, <img>, <form>, and <section> serve as the backbone, enabling the creation of distinct features on the website.
+- **HTML (Hyper MarkUp Language):** HTML serves as the foundational language for structuring the diverse content of a web page. It is used a building block for web development to cocreate a hierarchy. and relationships between elements. Tags such as h1, img, form, and section serve as the backbone, enabling the creation of distinct features on the website.
 - **CSS (Cascading Style Sheets):** A style sheet is a collection of rules that tells a web browser how to display a document written in HTML It helps to specify styles for elements, including colors, fonts, positioning. CSS plays a crucial role in enhancing the visual appearance and user experience of a website.
 - **JavaScript:**
   1. **Form Validation:** Helps to validate user inputs in sign-in and contact forms. This ensures that data collected are valid and meets the necessary requirements. Thus, enhancing the data accuracy and security 
