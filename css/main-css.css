@@ -981,16 +981,16 @@ font-size:20px;
     }
     .Upcoming_Event_box{
         width: 220px;
-        height: 35px;
+        height: 55px;
         top: 80%;
         left: 50%;
         border-radius: 5%;
     }
     .Upcoming_Event_box h3{
-        font-size: 18px;
+        font-size: 16px;
     }
     .Upcoming_Event_box h4{
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
@@ -1162,9 +1162,6 @@ font-size:20px;
         }
     }
 
-
-
-
     .Behind_scene{
         width: 100%;
         max-width: 100%; 
@@ -1186,7 +1183,7 @@ font-size:20px;
         flex-wrap: wrap;
         width: 90%;
         max-width: 100%;
-        margin: 40px 20px;
+        margin: 40px;
         }
         
             /* Styling for BEHIND SCENE section  box*/
@@ -1477,7 +1474,7 @@ font-size:20px;
         .Login{
             height: 100%;
             width: 100%;
-            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//sign_in_page/background-img.jpg);
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//sign_in_page/background.jpg);
             background-size: cover;
             background-position: center top;
             position: absolute;
@@ -1485,9 +1482,11 @@ font-size:20px;
         .form-box{
             width: 400px;
             height: 600px;
-            position: relative;
-            margin: 8% 10%;
-            background-color:beige;
+            position: absolute;
+            top: 13%;
+            right: 8%;
+            background-color:#0B4141;
+            border-radius:10px;
             padding: 5px;
             overflow: hidden;;
         
@@ -1516,7 +1515,7 @@ font-size:20px;
             position: absolute;
             width: 145px;
             height: 100%;
-            background: linear-gradient(to right, #ff1057,#ffad06);
+            background: darkorange;
             border-radius: 30px;
             transition: 0.5s;
         }
@@ -1531,7 +1530,7 @@ font-size:20px;
             margin: 0 12px;
             box-shadow: 0 0 20px 0 #7f7f7f3d;
             border-radius: 50%;
-            background: linear-gradient(to right, #ff1057,#ffad06);
+            background:darkorange;
             color: black;
         }
         .login_input-group{
@@ -1550,11 +1549,11 @@ font-size:20px;
             border-bottom: 2px solid #999;
             outline: none;
             border-radius: 10px;
-            background:lightsalmon;
+            background::#FAF0DC
         }
         .Login label{
             font-size: 20px;
-            color: #333;
+            color:#FAF0DC;
             font-weight:550;
         }
         .submit-btn{
@@ -1563,7 +1562,7 @@ font-size:20px;
             cursor: pointer;
             display: block;
             margin: 10px 20px;
-            background: linear-gradient(to right, #ff1057,#ffad06);
+            background: darkorange;
             border: 0;
             outline: none;
             border-radius: 30px;
@@ -1576,7 +1575,9 @@ font-size:20px;
         }
         .forgot a {
             font-size:15px;
-            color: #333;
+            color:#FAF0DC;
+            display: block;
+            margin-bottom: 10px
         }
         
         #Sign_In{
@@ -1622,5 +1623,95 @@ font-size:20px;
                 top: 150px;
                 width: 200px;
             }
+        }
+
+
+        /* Styling for Payment */
+        .Payment_background{
+            height: 100%;
+            width: 100%;
+            background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(..//payment_page/background.jpg);
+            background-size: cover;
+            background-position: center top;
+            position: absolute;}
+        
+        
+        .Payment_container {
+            max-width: 550px;
+            margin: 50px auto;
+            background-color:#0B4141;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .Payment_form {
+            width: 500px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .Payment_row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        
+        .Payment_col{
+            flex: 0 0 48%;
+            margin-right: 10px;
+        }
+        
+        
+        
+        .Payment_title {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color:#FAF0DC;
+            font-weight: 700;
+        }
+        
+        .inputBox {
+            margin-bottom: 20px;
+        }
+        
+        .inputBox label {
+            display: block;
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #FAF0DC;
+            font-weight: 500;
+        }
+        
+        .inputBox input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            font-size: 16px;
+            background-color: #FAF0DC;
+        }
+        
+        
+        .payment_img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .submitBtn {
+            width: 100%;
+            padding: 15px;
+            background-color: darkorange;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        .submitBtn:hover {
+            background-color:rgb(118, 66, 3)
         }
         

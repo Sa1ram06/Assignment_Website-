@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "../css/main-css.css">
+    <link rel="stylesheet" href = "../css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;300&family=Playpen+Sans:wght@500&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <!-- Link to Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/543bcc20b3.js" crossorigin="anonymous"></script>
+    <title> Payment Page</title>
+</head>
+<body>
+    <div class = "Payment_background">
+        <div class="Payment_container">
+            <form class = "Payment_form">
+                <div class="Payment_row">
+                    <!-- Billing Address Section -->
+                    <div class="Payment_col">
+                        <h3 class="Payment_title"> Billing address</h3>
+                        <div class="inputBox">
+                            <label> Full name :</label>
+                            <input type="text" placeholder="Sairam">
+                        </div>
+                        <div class="inputBox">
+                            <label> Phone Number :</label>
+                            <input type="tel" placeholder="9455 6614">
+                        </div>
+                        <div class="inputBox">
+                            <label> Email: </label>
+                            <input type="email" placeholder="example@gmail.com">
+                        </div>
+                        <div class="inputBox">
+                            <label> Country :</label>
+                            <input type="text" placeholder="Singapore">
+                        </div>
+                        <div class="inputBox">
+                            <label> Postal Code :</label>
+                            <input type="text" placeholder="530413">
+                        </div> 
+                    </div>
+
+                    <!-- Payment Section -->
+                    <div class="Payment_col">
+                        <h3 class="Payment_title"> Payment</h3>
+                        <div class="inputBox">
+                            <label> Cards accepted :</label>
+                            <img class = 'payment_img' src="card_img.png" alt="">
+                        </div>
+                        <div class="inputBox">
+                            <label> Name on card :</label>
+                            <input type="text" placeholder="Sairam">
+                        </div>
+                        <div class="inputBox">
+                            <label> Credit card number :</label>
+                            <input type="text" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <div class="inputBox">
+                            <label> Expire Date :</label>
+                            <input type="text" placeholder="mm/yyyy">
+                        </div>
+                        <div class="inputBox">
+                            <label> CVV :</label>
+                            <input type="text" placeholder="1234">
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="submitBtn">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
